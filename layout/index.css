@@ -1,0 +1,42 @@
+﻿
+
+/****************************/
+/*******  DESKTOP  **********/
+/****************************/
+
+@media screen and (min-width:1191px){
+    
+    /*****SET DESKTOP DEFAULTS VISIBLE******/
+
+    body
+    {
+    }
+
+    .viewing_on_mobile_device{
+
+    display:none;
+    }
+
+}
+
+/****************************/
+/********  TABLET  **********/
+/****************************/
+@media screen and (min-width:737.9999px) and (max-width:1190px) {
+
+    /*****SET TABLET DEFAULTS VISIBLE******/
+    .viewing_on_mobile_device{
+
+    display:none;
+    }
+}
+
+
+/****************************/
+/********  MOBILE  **********/
+/****************************/
+@media screen and (min-width:150px) and (max-width:737px) {
+
+    /******SET MOBILE DEFAULTS VISIBLE *******/
+
+}
