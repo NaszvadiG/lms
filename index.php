@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +7,14 @@
     <meta name="description" content="Leave Management System project in development for fake organization named Power Logistics, a warehouse company, comprised of multi-tiered employees and team of 100+ employees."/>
     <meta name="keywords" content="Power Logistics, project, Leave Management System" />
 
+   <!--  FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="layout/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="layout/template.css" type="text/css" />
     <link rel="stylesheet" href="layout/index.css" type="text/css" />
+
 </head>
 <body>
 
@@ -16,13 +22,12 @@
     <noscript><h3>Keep in mind that this site could potentially utilize Javascript. If you are seeing this message then you in fact do
         have Javascript disabled. Some features may not operate as they are intended to.</h3></noscript>
 
-
+<?php include 'include/header.php' ; ?>
 
     <!--- DESKTOP  -->
 
     <div class="content_container">
-        <h1>Power Logistics</h1>
-        <h3>Leave Management System</h3>
+
 
 
 
@@ -34,4 +39,8 @@
 
 
 </body>
+
+<?php include 'include/footer.php' ; ?>
+
+
 </html>

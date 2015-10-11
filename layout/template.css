@@ -1,0 +1,63 @@
+﻿body
+{
+}
+
+
+/*   HEADER CONTENT
+============================*/
+
+.notifications_toolbar{
+
+    width:100%;
+    height:65px;
+    background-color:#1e1e1e;
+    color:#fff;
+
+}
+
+.desktop_header_container{
+
+    width:100%;
+    height:225px;
+    background-image: url("../images/top_banner.png");
+    margin-top:-22px;
+    color:white;
+    box-sizing:border-box;
+    padding-left:20px;
+    padding-top:20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.company_name{
+
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    float:left;
+    height:95%;
+    margin-top:1.5%;
+    width:50%;
+    box-sizing:border-box;
+}
+
+
+
+/*   FOOTER CONTENT
+============================*/
+
+.footer_container{
+
+
+    width:100%;
+    height:300px;
+    background-color:#1e1e1e;
+    color:#fff;
+
+}
+
+.copyright_container{
+
+    width:100%;
+    height:65px;
+    background-image:url("../images/top_banner.png");
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+}
